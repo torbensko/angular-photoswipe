@@ -1,0 +1,21 @@
+{
+  "name": "angular-photoswipe",
+  "authors": [
+    "Torben Sko <torben.sko@gmail.com>"
+  ],
+  "description": "Angular port of the PhotoSwipe plugin",
+  "main": "scripts/main.js",
+  "license": "MIT",
+  "homepage": "https://torbensko.com/entries/angular-photoswipe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "photoswipe": "^4.1.1",
+    "angular-jquery": "torbensko/angular-jquery#^1.1.0"
+  }
+}

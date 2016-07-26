@@ -1,0 +1,15 @@
+{
+  "name": "angular-photoswipe",
+  "description": "Angular port of the PhotoSwipe plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbensko/angular-photoswipe.git"
+  },
+  "author": "Torben Sko <torben.sko@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/torbensko/angular-photoswipe#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

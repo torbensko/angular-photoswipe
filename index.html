@@ -1,0 +1,35 @@
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="/bower_components/photoswipe/dist/photoswipe.css" />
+    <link rel="stylesheet" href="/bower_components/photoswipe/dist/default-skin/default-skin.css" />
+		<style>
+			img {
+				margin: 5px;
+				vertical-align: top;
+			}
+		</style>
+	</head>
+	<body ng-app="demo">
+
+		<div photoswipe>
+			<a href="images/01.jpg" width="1200" height="799"><img src="images/thumbs/01.jpg" /></a>
+			<a href="images/02.jpg" width="1200" height="800"><img src="images/thumbs/02.jpg" /></a>
+			<a href="images/03.jpg" width="1200" height="820"><img src="images/thumbs/03.jpg" /></a>
+		</div>
+
+		<script src="/bower_components/jquery/dist/jquery.js"></script>
+		<script src="/bower_components/angular/angular.js"></script>
+		<script src="/bower_components/angular-jquery/angular-jquery.js"></script>		
+		<script src="/bower_components/photoswipe/dist/photoswipe.js"></script>
+    <script src="/bower_components/photoswipe/dist/photoswipe-ui-default.js"></script>
+
+		<script src="/scripts/main.js"></script>
+		<script>
+			angular
+			  .module('demo', [
+			    'sko.photoswipe',
+			  ]);
+		</script>
+	</body>
+</html>
